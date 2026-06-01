@@ -14,6 +14,19 @@ body {
      
     
 }
+.image-sasana {
+    width: 100%;
+    height: 250px;
+    margin-top: 20px;
+    border-radius: 6px;
+    overflow-x : scroll;
+}
+.image-sasana img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 4px;
+}
 .color-placeholder-card img {
     width : 100% ;
     height : 100% ;
