@@ -1,3 +1,14 @@
+// Add or adjust this function in your script.js file
+function goToMainMenuFromAny() {
+    switchSection('table-of-contents');
+}
+
+function goToMainMenu() {
+    nextSubSlide(1);
+    switchSection('table-of-contents');
+}
+
+// new 
 window.addEventListener('DOMContentLoaded', () => {
     const loader = document.getElementById('loader');
     const mainContent = document.getElementById('main-content');
