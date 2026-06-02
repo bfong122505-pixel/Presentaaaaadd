@@ -350,6 +350,17 @@ body {
     border-radius: 8px;
     padding: 25px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.02);
+    overflow: hidden;
+}
+.image-sa {
+    animation: scrol 10s linear infinite;
+    display: flex;
+    gap: 10px;
+    
+}
+.culture-card img {
+    height : 200px;
+    width : 100%;
 }
 
 .card-title-bj {
